@@ -1,8 +1,8 @@
-# 🏨 Hotel Terabithia: Plataforma de Gestão Integrada
+# Hotel Terabithia: Plataforma de Gestão Integrada
 
 O **Hotel Terabithia** é um sistema de gestão interna desenvolvido em **Kotlin**, projetado sob a arquitetura de **software modular**. O sistema centraliza operações críticas do hotel, garantindo segurança, validação rigorosa de dados e relatórios operacionais consolidados.
 
-## 🏗️ Arquitetura do Sistema
+## Arquitetura do Sistema
 O software foi decomposto em módulos independentes e coesos, facilitando a manutenção e a legibilidade do código:
 
 * **Módulo de Autenticação:** Controle de acesso com limite de 3 tentativas antes do bloqueio do sistema.
@@ -37,3 +37,6 @@ O software foi decomposto em módulos independentes e coesos, facilitando a manu
 2. Compile os arquivos `.kt`:
    ```bash
    kotlinc *.kt -include-runtime -d Hotel.jar
+3 - Execute o sistema
+```bash
+java -jar Hotel.jar
